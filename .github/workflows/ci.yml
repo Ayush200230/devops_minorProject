@@ -17,6 +17,6 @@ jobs:
               run: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
 
             - name: Build the Docker image
-              run: docker build -t ayush200230/devops_minorProject .
+              run: docker build -t ayush200230/devopsminorproject .
             - name: Push to Dockerhub
-              run: docker push ayush200230/devops_minorProject:latest
+              run: docker push ayush200230/devopsminorproject:latest
